@@ -1,0 +1,242 @@
+@charset "utf-8";
+/* CSS Document */
+
+.st{
+	width: 1000px;
+	margin: 0rem auto 0rem auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 80px;
+	font-family: BenguiatBold.ttf;
+	font-weight: 800;
+	color: #FF2F97;
+	letter-spacing: -2px;
+	animation: popShadow 5s infinite;
+}
+
+h1 {
+			color: #000;
+			text-align: center;
+			font-family:"Cooper Black";
+		}
+
+
+@keyframes popShadow {
+	0% {
+		text-shadow: 0 0 0 black;
+	}
+	
+	60% {
+		text-shadow: -0.03rem -0.03rem 1px #FFF,
+		0.03rem -0.03rem 1px #FFF,
+		-0.03rem 0.03rem 1px #FFF,
+		0.03rem 0.03rem 1px #FFF,
+		0 0 20px #F3F,
+		0 0 20px #C06;
+	}
+	
+	100% {
+		text-shadow: 0 0 0 black;
+	}
+}
+
+
+h3 {
+			color: #F06;
+			text-align: center;
+			font-family:"Cooper Black";
+			background: #FED4F6;
+		}
+
+
+
+*{
+            font-family: "Verdana", sans-serif;
+            -moz-box-sizing: border-box;
+            tamaño de caja: border-box;
+            Espaciado entre letras: 0px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: escala de grises;
+            scroll-behavior: suave;
+            margen: 0;
+            Color: #FFF;
+        }
+
+        
+        .conteudo {
+            Anchura: 600px;
+        }
+
+        .carrousel {
+            display: grid;
+            grid-auto-flow: column;
+            scroll-behavior: auto;
+            gap: 1.2rem;
+            overflow-y: auto;
+            overscroll-behavior-x: contain;
+            scroll-snap-type: x mandatory;
+            scrollbar-width: none;
+        }
+
+        .carrousel::-webkit-scrollbar {
+            display: none;
+        }
+
+        .card {
+            scroll-snap-align: start;
+            Radio de borde: 30px;
+            min-height: 450px;
+            min-width: 350px;
+            Pantalla: Flex;
+            align-items: centro;
+            justificar-contenido: centro;
+        }
+
+
+        .card1{
+            background: linear-gradient(-229deg, #FBD52D, #EF3A7B);
+        }
+
+        .card2{
+            background: linear-gradient(-229deg, #FF70AF, #5FA8F5);
+        }
+
+        .card3{
+            background: linear-gradient(-229deg, #0cebeb, #29ffc6);
+        }
+
+        .card4{
+            background: linear-gradient(-229deg, #88F7F9, #048FFF);
+        }
+
+        .card5{
+            background: linear-gradient(-229deg, #FBD52D, #EF3A7B);
+        }
+		.card6{
+            background: linear-gradient(-229deg, #FF70AF, #5FA8F5);
+        }
+		.card7{
+            background: linear-gradient(-229deg, #0cebeb, #29ffc6);
+        }
+		
+		.card8{
+            background: linear-gradient(-229deg, #FF66CC, #FF66CC);
+        }
+		
+		
+		#cont {
+      flex-basis: 70%;
+      padding: 10px;
+	  background: #FED4F6;
+    }
+	
+	.art {
+      margin-bottom: 20px;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+	
+	p {
+color: #000;
+font-family:Verdana, Geneva, sans-serif;
+text-align: center;
+}
+
+h2{
+			color: #FFF;
+			text-align: center;
+			font-family:"Cooper Black";
+		}
+		
+		
+		.article {
+      margin-bottom: 20px;
+      padding: 10px;
+      background-color: #f7f7f7;
+    }
+
+    .article-titulo {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .article-autor {
+      font-size: 14px;
+      color: #777;
+    }
+
+    .article-contenido {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+	
+	h4{
+			color: #000;
+			text-align: center;
+			font-family:"Cooper Black";
+		}
+	
+	table, th, td {
+  border: 2px solid black;
+  color: #000;
+}
+
+label {
+	color: #000;
+}
+
+button{
+	color: #000;
+}
+
+textarea {
+	color: #000;
+}
+
+
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: #888;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: #FF0;
+  font-size: 35px;
+}
+
+input[type="radio"]:checked ~ label {
+  color: #FF0;
+  font-size: 35px;
+}
+
+#pie {
+			color: #000;
+			padding: 20px;
+			text-align: center;
+		}
